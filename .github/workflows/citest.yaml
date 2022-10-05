@@ -8,3 +8,6 @@ jobs:
      - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
      - run: python Task_1.py
      - run: python Task_2.py
+     - run: python Task_3.py
+     - run: python Task_4.py
+     - run: python Task_5.py
