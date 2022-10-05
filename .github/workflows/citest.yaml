@@ -11,3 +11,7 @@ jobs:
      - run: python Task_3.py
      - run: python Task_4.py
      - run: python Task_5.py
+     - run: python Task_6.py
+     - run: python Task_7.py
+     - run: python Task_8.py
+     - run: python Task_9.py
