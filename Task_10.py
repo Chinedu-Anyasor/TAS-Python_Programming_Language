@@ -4,10 +4,6 @@
 # 2. Invoke/call the function
 
 
-def salute():
-    print("Hello World")
-
-
 hello = lambda: print("Hello World")
 
 hello()
