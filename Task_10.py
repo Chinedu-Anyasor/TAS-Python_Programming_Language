@@ -4,6 +4,6 @@
 # 2. Invoke/call the function
 
 
-hello = lambda: print("Hello World")
+greet = lambda name: print('Hello ', name)
 
-hello()
+greet('World')
