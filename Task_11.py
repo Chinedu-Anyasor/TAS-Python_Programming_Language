@@ -18,5 +18,4 @@ def school():
 
 
 student(12, 43)
-
 school()
