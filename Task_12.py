@@ -13,6 +13,11 @@ language = "Python"
 
 def greet():
     course = "Java"
+    print(language, course)
+
+
+def greet():
+    course = "Java"
     print(course)
 
 
