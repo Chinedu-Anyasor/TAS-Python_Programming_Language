@@ -16,9 +16,4 @@ def greet():
     print(language, course)
 
 
-def greet():
-    course = "Java"
-    print(course)
-
-
 greet()
