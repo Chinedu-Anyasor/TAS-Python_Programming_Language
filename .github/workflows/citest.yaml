@@ -22,3 +22,4 @@ jobs:
      - run: python Task_14.py
      - run: python Task_15.py
      - run: python Task_16.py
+     - run: python Task_17.py
