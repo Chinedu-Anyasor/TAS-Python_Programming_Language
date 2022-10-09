@@ -16,5 +16,5 @@ class Human:
             "My name is " + self.name + ", " + "I am a " + self.sex + ", " + self.height + " tall" + ", " + "My weight is " + self.weight)
 
 
-student_1 = Human("John", "male", "1.67m", "68kg")
+student_1 = Human("Chinedu", "male", "1.68m", "68kg")
 student_1.details()
