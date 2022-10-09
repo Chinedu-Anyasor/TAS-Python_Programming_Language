@@ -17,4 +17,6 @@ class Human:
 
 
 student_1 = Human("Chinedu", "male", "1.68m", "68kg")
+student_2 = Human("Juliet", "female", "1.62m", "72kg")
 student_1.details()
+student_2.details()
