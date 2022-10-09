@@ -23,3 +23,5 @@ jobs:
      - run: python Task_15.py
      - run: python Task_16.py
      - run: python Task_17.py
+     - run: python Task_18.py
+     - run: python Task_19.py
