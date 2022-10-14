@@ -8,9 +8,9 @@
 
 class Human:
 
-    def __init__(self, leg_count, can_walk):
-        self.leg_count = leg_count
-        self.can_walk = can_walk
+    def __init__(self):
+        self.leg_count = 4
+        self.can_walk = "True"
 
     def get_description(self):
         if self.can_walk == "True":
@@ -22,8 +22,6 @@ class Human:
         return self.leg_count
 
 
-man = Human(4, "True")
-print(man.leg_count)
-print(man.get_leg_numbers())
-
+man = Human()
 man.get_description()
+print(man.get_leg_numbers())
