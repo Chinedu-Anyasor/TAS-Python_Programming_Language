@@ -11,7 +11,7 @@ class Hunt:
     __weapon = "Assault Rifle"
 
     def get_weapon(self):
-        return self.__weapon + " Not Available"
+        return "Not Available"
 
 
 hunt = Hunt()
