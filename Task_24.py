@@ -24,12 +24,12 @@ class Vehicle(metaclass=abc.ABCMeta):
 
 class Car(Vehicle):
     def drive_direction(self):
-        return "Drive Forward"
+        return "Drive forward"
 
 
 class Plane(Vehicle):
     def drive_direction(self):
-        return "Drive Upward"
+        return "Drive upward"
 
 
 car = Car()
