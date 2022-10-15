@@ -13,26 +13,26 @@
 class Human:
 
     def get_gender(self):
-        print("unknown")
+        return "unknown"
 
 
 class Man(Human):
 
     def get_gender(self):
-        print("man")
+        return "man"
 
 
 class Woman(Human):
 
     def get_gender(self):
-        print("woman")
+        return "woman"
 
 
 human = Human()
-human.get_gender()
+print(human.get_gender())
 
 man = Man()
-man.get_gender()
+print(man.get_gender())
 
 woman = Woman()
-woman.get_gender()
+print(woman.get_gender())
