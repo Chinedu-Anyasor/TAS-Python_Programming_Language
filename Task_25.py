@@ -6,3 +6,12 @@
 
 # You can use any of the two methods to create your static methods.
 
+class Utilities:
+
+    @staticmethod
+    def print_name(name):
+        return name
+
+
+print("My name is ", Utilities.print_name("Chinedu"))
+
