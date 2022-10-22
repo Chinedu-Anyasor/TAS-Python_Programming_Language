@@ -19,7 +19,7 @@ class Vehicle(metaclass=abc.ABCMeta):
 
     @abc.abstractmethod
     def drive_direction(self):
-        pass
+        return "Drive"
 
 
 class Car(Vehicle):
